@@ -1,0 +1,40 @@
+Welcome to MAGMA v1.10 (linux)
+Using flags:
+	--gene-results /projects/perslab/apps/MAGMA/out/SystolicBP_GCST90310294/SystolicBP_GCST90310294.genes.raw
+	--gene-covar /projects/perslab/people/jmg776/ad_hoc/dylan_MAGMA-milo/milo_lepinject.txt
+	--model direction=greater condition-hide=Average
+	--out /projects/perslab/people/jmg776/ad_hoc/dylan_MAGMA-milo/SystolicBP_lepinject24_gwas_milo
+
+Start time is 14:02:59, Tuesday 20 Jan 2026
+
+Reading file /projects/perslab/apps/MAGMA/out/SystolicBP_GCST90310294/SystolicBP_GCST90310294.genes.raw... 
+	18073 genes read from file
+Loading gene-level covariates...
+Reading file /projects/perslab/people/jmg776/ad_hoc/dylan_MAGMA-milo/milo_lepinject.txt... 
+	detected 553 variables in file (using all)
+	found 553 valid gene covariates, for 11133 genes defined in genotype data
+Processing missing values...
+	found 6940 genes not present in all input files: removing these from analysis
+	11133 genes remaining in analysis
+Preparing variables for analysis...
+	truncating Z-scores 3 points below zero or 6 standard deviations above the mean
+	truncating covariate values more than 5 standard deviations from the mean
+	total variables available for analysis: 553 gene covariates
+
+Parsing model specifications...
+Inverting gene-gene correlation matrix...
+Performing regression analysis...
+	testing direction: one-sided, positive (sets), one-sided, positive (covar)
+	conditioning on internal variables:
+		gene size, log(gene size)
+		gene density, log(gene density)
+		sample size, log(sample size)
+		inverse mac, log(inverse mac)
+	conditioning on input variables (no output):
+		Average (covar)
+	analysing individual variables
+
+	analysing single-variable models (number of models: 552)
+	writing results to file /projects/perslab/people/jmg776/ad_hoc/dylan_MAGMA-milo/SystolicBP_lepinject24_gwas_milo.gsa.out
+
+End time is 14:03:16, Tuesday 20 Jan 2026 (elapsed: 00:00:17)
