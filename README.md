@@ -24,6 +24,11 @@ mgmyers@umich.edu
 **Tune H. Pers, PhD**  
 Novo Nordisk Foundation Center for Basic Metabolic Research  
 Faculty of Health and Medical Sciences, University of Copenhagen
+Maersk Tower, Building: 07-8-78
+Blegdamsvej 3B, 2200 Copenhagen, Denmark
+tune.pers@sund.ku.dk
 
 ## Abstract
 While previous studies have suggested that leptin regulates cardiovascular function independently of body weight, the specific leptin receptor (*Lepr*)-expressing neurons that mediate these distinct effects remain unknown. We found that genes located in blood pressure (BP)-associated genome-wide association study loci were regulated by leptin in *Lepr*- and glucagon-like peptide-1 receptor (*Glp1r*)-expressing (Lepr<sup>Glp1r</sup>) neurons. Ablating *Lepr* from these cells decreased BP despite causing hyperphagic obesity. Single-cell and spatial transcriptomics revealed that Lepr<sup>Glp1r</sup> neurons segregate into two distinct subpopulations of cells located in the arcuate nucleus (ARC) and dorsomedial hypothalamic nucleus (DMH). Activating ARC Lepr<sup>Glp1r</sup> neurons suppressed food intake without impacting energy expenditure or cardiovascular function. Conversely, DMH Lepr<sup>Glp1r</sup> neurons increased energy utilization and BP without altering food intake. Our results identify distinct Lepr<sup>Glp1r</sup> neuron subpopulations that dissociate the control of food intake from outputs related to sympathetic tone, including BP, suggesting the potential therapeutic utility of targeting these subpopulations independently.
+
+Github repository covers the code necessary to reproduce figure 1C. MAGMA outputs have been computed and added to the repository. Remaining data files can be found at https://www.ebi.ac.uk/biostudies/ArrayExpress/studies/E-MTAB-17544 
